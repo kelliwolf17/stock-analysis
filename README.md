@@ -19,5 +19,13 @@ See the results for 2017 and 2018 stock performance. RUN and TERP were the only 
 ## Script Performance Comparison
 The execution times from the original script to the refactored script improved significantly. For example, the original script ran in 0.766 seconds whereas the refactored code ran in 0.230 seconds. 
 
+Refactored script:
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/71397190/95690301-4dbee980-0bdc-11eb-83f7-8097403df5b5.PNG)
+
+Original script:
+
+![original_2018](https://user-images.githubusercontent.com/71397190/95690302-51eb0700-0bdc-11eb-92b1-b6d370f90c9a.PNG)
+
 # Summary
 What are the advantages or disadvantages of refactoring code? How do the pros and cons apply to refcaotring the original VBA code?
