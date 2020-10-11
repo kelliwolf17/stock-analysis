@@ -7,7 +7,7 @@
 3. green_stocks.xlsm containing the module practice
 
 # Overview of Project
-The purpose of this analysis was to be able to analyize the Total Daily Volume and Returns for each ticker symbol from the data Steve provided. He originally wanted to determine whether or not Daqo (DQ) was a good investment, but has since wanted to look at other investment options for his parents.
+The purpose of this analysis was to be able to analyize the Total Daily Volume and Returns for each ticker symbol from the data Steve provided. He originally wanted to determine whether or not Daqo (DQ) was a good investment, but has since wanted to look at other investment options for his parents. In order to do this, the source code needed to be refactored to include the other investment options.
 # Results
 The outputs for 2017 and 2018 are seen in the next section. The Total Daily Volumes match the module, but the Returns are slightly off. I believe this to be a rounding error at some point in the formatting code. 
 ## Stock Performace Comparison
@@ -28,4 +28,6 @@ Original script:
 ![original_2018](https://user-images.githubusercontent.com/71397190/95690302-51eb0700-0bdc-11eb-92b1-b6d370f90c9a.PNG)
 
 # Summary
-What are the advantages or disadvantages of refactoring code? How do the pros and cons apply to refcaotring the original VBA code?
+Refactoring code allows one to improve the logic of source code. It can allow for cleaner, more concise code and make it easier to maintain. This is helpful if you want to expand your code to evaluate more items, like in this case we refactored it to evaluate 12 tickers as opposed to just 1. With more complex code and with a limited amount of time, I could see that refactoring may be a burdensome task not worth the effort. It could take too much time, and depending on the amount of people working on the code, cost could become a factor. 
+
+In this particular case, I do not see any disadvantages of refactoring. It was fairly simple script, in a simple program, running a relatively small data set. The larger the data, the more complex the code, refactoring can take a lot more time and resources. We were also able to evaluate more outputs in a more efficient code with relatively little extra time involved. 
